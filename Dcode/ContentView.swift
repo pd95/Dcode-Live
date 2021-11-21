@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("removeSpaces") private var removeSpaces = false
+    @AppStorage("reverseText") private var reverseText = false
+    @SceneStorage("selectedTab") private var selectedTab = "Caesar"
+
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            TabView {
+                CaesarView()
+                    .tabItem {
+                        Text("Caesar")
+                    }
+                    .tag("Caesar")
+            }
             .padding()
+
+            HStack {
+                Toggle("Remove spaces", isOn: $removeSpaces)
+                Toggle("Reverse text", isOn: $reverseText)
+            }
+            .padding()
+        }
     }
 }
 
