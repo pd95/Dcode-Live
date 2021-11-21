@@ -13,6 +13,9 @@
 		1778B5F7274AB4BA00829563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1778B5F6274AB4BA00829563 /* Preview Assets.xcassets */; };
 		1778B5FF274AB68100829563 /* CaesarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B5FE274AB68100829563 /* CaesarView.swift */; };
 		1778B601274ABA1200829563 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B600274ABA1200829563 /* Shared.swift */; };
+		1778B603274ABCD500829563 /* ColumnarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B602274ABCD500829563 /* ColumnarView.swift */; };
+		1778B606274ABEC100829563 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 1778B605274ABEC100829563 /* Algorithms */; };
+		1778B608274AC21E00829563 /* ShiftAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B607274AC21E00829563 /* ShiftAmount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,8 @@
 		1778B5F8274AB4BA00829563 /* Dcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dcode.entitlements; sourceTree = "<group>"; };
 		1778B5FE274AB68100829563 /* CaesarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarView.swift; sourceTree = "<group>"; };
 		1778B600274ABA1200829563 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		1778B602274ABCD500829563 /* ColumnarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnarView.swift; sourceTree = "<group>"; };
+		1778B607274AC21E00829563 /* ShiftAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftAmount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1778B606274ABEC100829563 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 				1778B5EF274AB4B900829563 /* DcodeApp.swift */,
 				1778B5F1274AB4B900829563 /* ContentView.swift */,
 				1778B5FE274AB68100829563 /* CaesarView.swift */,
+				1778B602274ABCD500829563 /* ColumnarView.swift */,
+				1778B607274AC21E00829563 /* ShiftAmount.swift */,
 				1778B600274ABA1200829563 /* Shared.swift */,
 				1778B5F3274AB4BA00829563 /* Assets.xcassets */,
 				1778B5F8274AB4BA00829563 /* Dcode.entitlements */,
@@ -91,6 +99,9 @@
 			dependencies = (
 			);
 			name = Dcode;
+			packageProductDependencies = (
+				1778B605274ABEC100829563 /* Algorithms */,
+			);
 			productName = Dcode;
 			productReference = 1778B5EC274AB4B900829563 /* Dcode.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 1778B5E3274AB4B900829563;
+			packageReferences = (
+				1778B604274ABEC100829563 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 1778B5ED274AB4B900829563 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,6 +163,8 @@
 				1778B5F2274AB4B900829563 /* ContentView.swift in Sources */,
 				1778B601274ABA1200829563 /* Shared.swift in Sources */,
 				1778B5F0274AB4B900829563 /* DcodeApp.swift in Sources */,
+				1778B608274AC21E00829563 /* ShiftAmount.swift in Sources */,
+				1778B603274ABCD500829563 /* ColumnarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +364,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1778B604274ABEC100829563 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1778B605274ABEC100829563 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1778B604274ABEC100829563 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1778B5E4274AB4B900829563 /* Project object */;
 }

@@ -20,6 +20,12 @@ struct ContentView: View {
                         Text("Caesar")
                     }
                     .tag("Caesar")
+
+                ColumnarView()
+                    .tabItem {
+                        Text("Columnar")
+                    }
+                    .tag("Columnar")
             }
             .padding()
 
