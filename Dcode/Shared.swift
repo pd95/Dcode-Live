@@ -9,4 +9,5 @@ import Foundation
 
 struct Shared {
     static let alphabet = Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    static let frequencies = Array("ETAOINSHRDLUCMWFGYPBVKJXQZ")
 }

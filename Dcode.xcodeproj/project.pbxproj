@@ -16,6 +16,10 @@
 		1778B603274ABCD500829563 /* ColumnarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B602274ABCD500829563 /* ColumnarView.swift */; };
 		1778B606274ABEC100829563 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 1778B605274ABEC100829563 /* Algorithms */; };
 		1778B608274AC21E00829563 /* ShiftAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B607274AC21E00829563 /* ShiftAmount.swift */; };
+		1778B60C274AC81700829563 /* VigenereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B60B274AC81700829563 /* VigenereView.swift */; };
+		1778B60E274ACDBB00829563 /* DistancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B60D274ACDBB00829563 /* DistancesView.swift */; };
+		1778B610274ACF0F00829563 /* PairCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B60F274ACF0F00829563 /* PairCounter.swift */; };
+		1778B612274AD4AA00829563 /* FrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778B611274AD4AA00829563 /* FrequencyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		1778B600274ABA1200829563 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 		1778B602274ABCD500829563 /* ColumnarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnarView.swift; sourceTree = "<group>"; };
 		1778B607274AC21E00829563 /* ShiftAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftAmount.swift; sourceTree = "<group>"; };
+		1778B60B274AC81700829563 /* VigenereView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VigenereView.swift; sourceTree = "<group>"; };
+		1778B60D274ACDBB00829563 /* DistancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistancesView.swift; sourceTree = "<group>"; };
+		1778B60F274ACF0F00829563 /* PairCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCounter.swift; sourceTree = "<group>"; };
+		1778B611274AD4AA00829563 /* FrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				1778B5F1274AB4B900829563 /* ContentView.swift */,
 				1778B5FE274AB68100829563 /* CaesarView.swift */,
 				1778B602274ABCD500829563 /* ColumnarView.swift */,
+				1778B60B274AC81700829563 /* VigenereView.swift */,
+				1778B60D274ACDBB00829563 /* DistancesView.swift */,
+				1778B611274AD4AA00829563 /* FrequencyView.swift */,
+				1778B60F274ACF0F00829563 /* PairCounter.swift */,
 				1778B607274AC21E00829563 /* ShiftAmount.swift */,
 				1778B600274ABA1200829563 /* Shared.swift */,
 				1778B5F3274AB4BA00829563 /* Assets.xcassets */,
@@ -159,12 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1778B60C274AC81700829563 /* VigenereView.swift in Sources */,
 				1778B5FF274AB68100829563 /* CaesarView.swift in Sources */,
 				1778B5F2274AB4B900829563 /* ContentView.swift in Sources */,
+				1778B612274AD4AA00829563 /* FrequencyView.swift in Sources */,
 				1778B601274ABA1200829563 /* Shared.swift in Sources */,
 				1778B5F0274AB4B900829563 /* DcodeApp.swift in Sources */,
 				1778B608274AC21E00829563 /* ShiftAmount.swift in Sources */,
 				1778B603274ABCD500829563 /* ColumnarView.swift in Sources */,
+				1778B610274ACF0F00829563 /* PairCounter.swift in Sources */,
+				1778B60E274ACDBB00829563 /* DistancesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

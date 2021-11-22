@@ -14,7 +14,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            TabView {
+            TabView(selection: $selectedTab) {
                 CaesarView()
                     .tabItem {
                         Text("Caesar")
@@ -26,6 +26,12 @@ struct ContentView: View {
                         Text("Columnar")
                     }
                     .tag("Columnar")
+
+                VigenereView()
+                    .tabItem {
+                        Text("Vigenère")
+                    }
+                    .tag("Vigenere")
             }
             .padding()
 
