@@ -37,6 +37,7 @@
 		1778B60D274ACDBB00829563 /* DistancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistancesView.swift; sourceTree = "<group>"; };
 		1778B60F274ACF0F00829563 /* PairCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCounter.swift; sourceTree = "<group>"; };
 		1778B611274AD4AA00829563 /* FrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyView.swift; sourceTree = "<group>"; };
+		1778B613274B7F7400829563 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		1778B5E3274AB4B900829563 = {
 			isa = PBXGroup;
 			children = (
+				1778B613274B7F7400829563 /* README.md */,
 				1778B5EE274AB4B900829563 /* Dcode */,
 				1778B5ED274AB4B900829563 /* Products */,
 			);
