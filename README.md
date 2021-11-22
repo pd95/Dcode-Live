@@ -20,3 +20,7 @@ The implementation shows
   - striding using `striding(by:)`
 
 You can find some cipher texts in the `Examples` folder.
+
+## Demo
+
+![Demo showing deciphering app](Dcode-Demo.gif)
